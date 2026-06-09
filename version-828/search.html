@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-国产影片大全</title>
+  <meta name="description" content="国产影片大全搜索页支持按片名、类型、地区、年份和标签查找高清影片。">
+  <meta name="keywords" content="国产影片大全,搜索,电影,视频,免费,在线观看">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./index.html" aria-label="国产影片大全">
+        <span class="brand-mark">▶</span>
+        <span>国产影片大全</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" data-nav-toggle>☰</button>
+      <nav class="site-nav" data-site-nav>
+        <a class="" href="./index.html">首页</a>
+        <div class="nav-drop">
+          <a class="" href="./categories.html">分类</a>
+          <div class="drop-menu">
+              <a href="./category-hot-recommend.html">高清热播</a>
+              <a href="./category-new-films.html">最新佳作</a>
+              <a href="./category-domestic-picks.html">国产精选</a>
+              <a href="./category-drama-library.html">剧情片库</a>
+              <a href="./category-romance-healing.html">爱情治愈</a>
+              <a href="./category-comedy-animation.html">喜剧动画</a>
+              <a href="./category-action-suspense.html">动作悬疑</a>
+              <a href="./category-sci-fi-thriller.html">科幻惊悚</a>
+              <a href="./category-family-record.html">家庭纪实</a>
+              <a href="./category-global-selection.html">环球片单</a>
+          </div>
+        </div>
+        <a class="" href="./rank.html">热播榜</a>
+        <a class="" href="./library.html">影片索引</a>
+        <form class="nav-search" action="./search.html" method="get">
+          <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+      </nav>
+    </div>
+  </header>
+  <main class="container page-main">
+    <section class="page-hero compact-hero">
+      <p class="eyebrow">快速查找</p>
+      <h1>搜索影片</h1>
+      <p>输入片名、地区、年份、类型或标签，快速进入对应影片详情页。</p>
+    </section>
+    <section class="filter-panel search-panel">
+      <input id="searchInput" type="search" placeholder="搜索片名、类型、地区、标签" autocomplete="off">
+      <button id="searchButton" type="button">搜索</button>
+    </section>
+    <section id="searchResults" class="movie-grid"></section>
+    <p id="searchEmpty" class="empty-state">没有找到相关影片</p>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="./index.html"><span class="brand-mark">▶</span><span>国产影片大全</span></a>
+        <p>国产影片大全资源免费在线播放，每日推荐高清热播电影，内容涵盖最新佳作与经典力作，观影指南一目了然。</p>
+      </div>
+      <div>
+        <h3>频道导航</h3>
+        <div class="footer-links">
+          <a href="./category-hot-recommend.html">高清热播</a>
+          <a href="./category-new-films.html">最新佳作</a>
+          <a href="./category-domestic-picks.html">国产精选</a>
+          <a href="./category-drama-library.html">剧情片库</a>
+          <a href="./category-romance-healing.html">爱情治愈</a>
+          <a href="./category-comedy-animation.html">喜剧动画</a>
+        </div>
+      </div>
+      <div>
+        <h3>热门检索</h3>
+        <div class="footer-links">
+          <a href="./search.html?q=%E5%9B%BD%E4%BA%A7">国产</a>
+          <a href="./search.html?q=%E7%94%B5%E5%BD%B1">电影</a>
+          <a href="./search.html?q=%E7%88%B1%E6%83%85">爱情</a>
+          <a href="./search.html?q=%E5%96%9C%E5%89%A7">喜剧</a>
+          <a href="./search.html?q=%E5%8A%A8%E4%BD%9C">动作</a>
+          <a href="./search.html?q=%E6%82%AC%E7%96%91">悬疑</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 国产影片大全 · 高清热播电影推荐</div>
+  </footer>
+  <script src="./assets/search-data.js"></script>
+  <script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

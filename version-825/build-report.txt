@@ -1,0 +1,20 @@
+静态电影网站生成报告
+影片解析数量：2000
+分类页数量：10
+详情页数量：2000
+HLS 播放源数量：20
+HTML 页面总数：2015
+封面规则：第 N 条影片引用顶级目录 ((N - 1) % 150) + 1.jpg
+百度统计：所有 HTML 页面均已写入指定脚本。
+
+分类分布：
+- 精选影厅 (jingxuan-yingting)：200 部
+- 热播专区 (rebo-zhuanqu)：200 部
+- 高清影库 (gaoqing-yingku)：200 部
+- 口碑佳片 (koubei-jiapian)：200 部
+- 新片速递 (xinpin-sudi)：200 部
+- 经典回看 (jingdian-huikan)：200 部
+- 周末影院 (zhoumo-yingyuan)：200 部
+- 人气榜单 (renqi-bangdan)：200 部
+- 剧情精选 (juqing-jingxuan)：200 部
+- 观影推荐 (guanying-tuijian)：200 部
